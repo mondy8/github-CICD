@@ -1,0 +1,9 @@
+name: Name
+on: push
+jobs:
+  print:
+    name: Super Useful Job
+    runs-on: ubutu-latest
+    steps:
+      - name: Amazing Script
+        run: echo "Hello"
